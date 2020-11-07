@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book2"
+    tools:context=".balance2">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit"
+        android:text="Proceed"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline83" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="288dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="52dp"
+        android:text="We have sent a verification code to your registered \nemail ID"
+        android:textColor="#000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline82" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="265dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Please enter your Verification Code"
+        android:textColor="#000"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline82" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="168dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline82"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline81"
+        app:srcCompat="@drawable/otp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="218dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/bigar"
+        android:drawablePadding="15dp"
+        android:textStyle="bold"
+
+        android:text="Code Verification"
+        android:textColor="#000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/button23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline82">
+
+        <EditText
+            android:id="@+id/editText39"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editText40"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editText41"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:imeOptions="actionNext"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editText42"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:imeOptions="actionNext"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editText43"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editText44"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:imeOptions="actionDone"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="61dp"
+
+            tools:layout_editor_absoluteY="432dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

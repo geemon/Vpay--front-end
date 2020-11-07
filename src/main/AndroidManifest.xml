@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vpay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".balance3"></activity>
+        <activity android:name=".balance2" />
+        <activity android:name=".balance" />
+        <activity android:name=".finance3" />
+        <activity android:name=".finance2" />
+        <activity android:name=".finance" />
+        <activity android:name=".payment3" />
+        <activity android:name=".payment2" />
+        <activity android:name=".payment" />
+        <activity android:name=".deposit3" />
+        <activity android:name=".deposit2" />
+        <activity android:name=".deposit" />
+        <activity android:name=".withdraw_cash3" />
+        <activity android:name=".withdraw_cash2" />
+        <activity android:name=".withdraw_cash" />
+        <activity android:name=".send_money3" />
+        <activity android:name=".send_money2" />
+        <activity android:name=".send_money" />
+        <activity android:name=".menu" />
+        <activity android:name=".sign_up2" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".rg_opt" />
+        <activity android:name=".password" />
+        <activity android:name=".password3" />
+        <activity android:name=".password2" />
+        <activity android:name=".log_in" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
